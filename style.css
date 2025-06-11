@@ -25,7 +25,7 @@ html, body {
 }
 
 .sidebar {
-  flex: 1;
+  flex: .5;
   background-color: #e0f7fa;
   padding: 1rem;
   border-radius: 8px;
