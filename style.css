@@ -88,9 +88,10 @@ p, li, label {
 }
 
 .blog-post img {
-  max-width: 100%;
+  max-width: 80%;
+  display: block;
+  margin: 1rem auto 0 auto;
   border-radius: 6px;
-  margin-top: 1rem;
 }
 
 img[alt="Author Pic"] {
@@ -100,10 +101,6 @@ img[alt="Author Pic"] {
   max-width: 300px;
   border-radius: 8px;
   border: 3px solid #ccc;
-}
-
-img[alt="Picture from Game"] {
-    width: 100%;
 }
 
 form {
