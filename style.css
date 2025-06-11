@@ -103,9 +103,9 @@ img[alt="Author Pic"] {
 }
 
 img[alt="Picture from Game"] {
-    display: flex;
-
+    width: 100%;
 }
+
 form {
   display: flex;
   flex-wrap: wrap;
