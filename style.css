@@ -94,13 +94,25 @@ p, li, label {
   border-radius: 6px;
 }
 
-img[alt="Author Pic"] {
+.about-photo {
   float: right;
+  max-width: 300px;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  max-width: 300px;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 100%;
   border-radius: 8px;
   border: 3px solid #ccc;
+  display: block;
+}
+
+.about-photo figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
 }
 
 form {
