@@ -25,11 +25,11 @@ html, body {
 }
 
 .sidebar {
-    flex: 0 0 250px;
-  max-width: 250px;
+  flex: 1;
   background-color: #e0f7fa;
   padding: 1rem;
   border-radius: 8px;
+}
 
 header {
   background-color: #003366;
