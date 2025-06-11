@@ -13,7 +13,6 @@ html, body {
   padding: 0 1rem;
 }
 
-/* === Layout Containers === */
 .container {
   display: flex;
   gap: 2rem;
@@ -32,7 +31,6 @@ html, body {
   border-radius: 8px;
 }
 
-/* === Header === */
 header {
   background-color: #003366;
   color: white;
@@ -53,7 +51,6 @@ header p {
   font-style: italic;
 }
 
-/* === Navigation === */
 nav ul {
   list-style: none;
   display: flex;
@@ -72,7 +69,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* === Typography === */
 h1, h2, h3, h4 {
   font-family: 'Georgia', serif;
   margin-bottom: 0.5rem;
@@ -83,7 +79,6 @@ p, li, label {
   font-family: 'Arial', sans-serif;
 }
 
-/* === Blog Articles === */
 .blog-post {
   background-color: white;
   padding: 1rem;
@@ -98,7 +93,6 @@ p, li, label {
   margin-top: 1rem;
 }
 
-/* === Floated Image (About Page) === */
 img[alt="Author Pic"] {
   float: right;
   margin-left: 1rem;
@@ -108,7 +102,10 @@ img[alt="Author Pic"] {
   border: 3px solid #ccc;
 }
 
-/* === Forms === */
+img[alt="Picture from Game"] {
+    max-width: flex;
+
+}
 form {
   display: flex;
   flex-wrap: wrap;
@@ -145,7 +142,6 @@ button:hover {
   background-color: #00509e;
 }
 
-/* === Footer === */
 footer {
   text-align: center;
   padding: 2rem 0;
@@ -154,7 +150,6 @@ footer {
   background-color: #f9f9f9;
 }
 
-/* === Tables === */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -172,26 +167,22 @@ th {
   color: white;
 }
 
-/* === Attribute Selector === */
 a[href^="https://"] {
   color: #003366;
   font-weight: bold;
 }
 
-/* === ID Selector === */
 #blog {
   background: #fff;
   padding: 1rem;
   border-radius: 8px;
 }
 
-/* === Class Selector === */
 .author {
   font-style: italic;
   color: #555;
 }
 
-/* === Type Selector === */
 article {
   margin-bottom: 2rem;
 }
