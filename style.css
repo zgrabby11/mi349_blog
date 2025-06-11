@@ -103,7 +103,7 @@ img[alt="Author Pic"] {
 }
 
 img[alt="Picture from Game"] {
-    max-width: flex;
+    display: flex;
 
 }
 form {
